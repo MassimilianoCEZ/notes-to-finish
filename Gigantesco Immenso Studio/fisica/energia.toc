@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}Energy}{3}{}%
+\contentsline {section}{\numberline {2}Kinetik Energy}{3}{}%
+\contentsline {section}{\numberline {3}Work}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Advanced Part}{3}{}%
+\contentsline {section}{\numberline {4}Potential Energy}{4}{}%

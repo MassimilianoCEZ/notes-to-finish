@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{parskip}
+\usepackage{dsfont}
+\usepackage{fullpage}
+
+\title{Physics}
+\author{Ferrulli Massimiliano}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Abstract}
+Appunti realizzati da Ferrulli Massimiliano
+\\
+Every notes has been made by Ferrulli Massimiliano
+\pagebreak
+
+\tableofcontents
+\pagebreak
+
+\section{Energy}
+First let's talk about Energy and what it is.
+\\
+Energy is something that can't be crated or destroyed in any way, the total amount is always the same.
+However energy can be transformed from a type of energy to another one, but we'll talk later about types of energy.
+
+\section{Kinetik Energy}
+The Kinetik Energy \textit{\text{K}} is related to the state of motion of an object. the formula of the Kinetik Energy is:
+
+\begin{align*}  
+\textit{K} = \frac{1}{2} \, \textit{m} \, v^2
+\end{align*}
+
+\begin{center} 
+The SI unit of \textit{K} is \textit{J} 
+\end{center}
+\section{Work}
+Work is energy transferred from or to an object, Work is made by a force that acts on it.
+when energy is transferred from an object to another system or object, the force does a negative work.
+The work done from a point \textit{A} to a point \textit{B} is not affected by the path chosen.
+\begin{align*}  
+E_f - E_i = W
+\end{align*}
+
+Obviously if \(E_i>E_f\) we will have a negative work done by the force as part of the energy is 
+transferred from a system to another one. 
+\subsection{Advanced Part}
+\begin{align*}
+\textit{W} = \int_{x_i}^{x_f}  \,(x)\, dx    
+\end{align*}
+That's the formula of the \textit{W} done by any force.
+Newtwon says that \(\textit{F} = \textit{m} \cdot \textit{a}\) and we can apply this to the formula written above.
+\begin{align*}
+\textit{W} = \int_{x_i}^{x_f}  \,F(x) \, dx &= \int_{x_i}^{x_f} \,\textit{m} \cdot \textit{a} \, dx
+\\ 
+\textit{a} &= \frac{dv}{dt}
+\\
+\textit{m} \cdot \textit{a} \, dx &= \textit{m} \cdot \frac{dv}{dt} \, dx    
+\end{align*}
+For the chain rule:
+\begin{align*}
+    \frac{dv}{dt} \, dx = \frac{dv}{dt} \cdot \frac{dx}{dx} = \frac{dv}{dx} \cdot \frac{dx}{dt} = \frac{dv}{dx} \cdot \textit{v}
+\end{align*}
+\begin{center}
+By just changing what we've done before:
+\end{center}
+\begin{align*}
+    \textit{m} \cdot \frac{dv}{dt} \, dx = \textit{m} \cdot \frac{dv}{dx} \, dx \cdot \textit{v} = \textit{m} \cdot \textit{v} \, dv
+\end{align*}
+if we put:
+\begin{align*}
+    \textit{m} \cdot \textit{a} \, dx = \textit{m} \cdot \textit{v} \, dv   
+\end{align*}
+inside
+\begin{align*}
+    \int_{x_i}^{x_f} \,\textit{m} \cdot \textit{a} \, dx   
+\end{align*}
+we have:
+\begin{align*}
+    \int_{v_i}^{v_f} \,\textit{m} \cdot \textit{v} \, dv = \frac{1}{2} \, \textit{m} \, v_f^2 - \frac{1}{2} \, \textit{m} \, v_i^2     
+\end{align*}
+
+\section{Potential Energy}
+\begin{align*}
+sniggers
+\end{align*}
+
+\end{document}
